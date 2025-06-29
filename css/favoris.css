@@ -1,0 +1,75 @@
+.body {
+  background-color: #f4f1eb;
+}
+
+.favoris-section {
+  padding: 0 60px;
+  background-color: #f4f1eb;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.favoris-section h2 {
+  font-size: 46px;
+  top: 0;
+  color: #285A43;
+  margin-bottom: 10px;
+}
+
+.favoris-section p {
+  font-size: 18px;
+  color: #444;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px;
+}
+
+.favoris-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.favoris-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+}
+
+.favoris-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.favoris-card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #285A43;
+}
+
+.favoris-card p {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+
+
+.clear-favoris-button {
+  background-color: #cc3333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.clear-favoris-button:hover {
+  background-color: #a82828;
+}

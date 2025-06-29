@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/panier.css".css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <title>Votre Panier</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Une Fleur</div>
+      <div class="navbar-items">
+        <li><a href="/index.html">Acceuil</a></li>
+        <li><a href="search.html">Fleurs</a></li>
+        <li><a href="/index.html#avis">Avis</a></li>
+        <li><a href="/html/favoris.html">Favoris</a></li>
+        <li><a href="/html/panier.html">Panier</a></li>
+      </div>
+    </div>
+
+    <main role="main" aria-label="Contenu du panier">
+      <h2 style="text-align: center">Nos Produits</h2>
+      <p id="empty-message" style="display: none">
+        Vous n'avez encore rien ajouter à votre panier.
+      </p>
+      <section
+        id="panier-container"
+        aria-live="polite"
+        aria-relevant="additions removals"
+      >
+        <!-- Le contenu du panier sera injecté ici par JavaScript -->
+      </section>
+      <p id="empty-message" style="display: none">
+        Vous n'avez encore rien ajouter à votre panier.
+      </p>
+      <p id="total-panier" aria-live="polite" aria-atomic="true">
+        <!-- Total du panier affiché ici -->
+      </p>
+    </main>
+
+    <script src="/js/panier.js"></script>
+  </body>
+</html>

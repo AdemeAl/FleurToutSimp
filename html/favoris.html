@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mes Favoris | Une Fleur</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/favoris.css" />
+    
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Une Fleur</div>
+      <div class="navbar-items">
+        <li><a href="/index.html">Acceuil</a></li>
+        <li><a href="search.html">Fleurs</a></li>
+        <li><a href="/index.html#avis">Avis</a></li>
+        <li><a href="/html/favoris.html">Favoris</a></li>
+        <li><a href="/html/panier.html">Panier</a></li>
+      </div>
+    </div>
+    <section class="favoris-section">
+      <h2><i class="fa-solid fa-heart"></i> Mes coups de cœur</h2>
+      <p>Voici les fleurs que vous avez ajoutées à votre sélection.</p>
+
+      <div id="favoris-list" class="favoris-list">
+        <!-- Les favoris seront injectés ici -->
+      </div>
+
+      <p id="empty-message" style="display: none">
+        Vous n'avez encore ajouté aucun favori.
+      </p>
+
+      <button id="clear-favoris" class="clear-favoris-button">
+        Vider les favoris
+      </button>
+    </section>
+
+    <script src="/js/favoris.js"></script>
+  </body>
+</html>

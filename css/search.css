@@ -1,0 +1,236 @@
+:root {
+    --couleur-principale: #285A43;
+    --couleur-secondaire: #337A5B;
+    --couleur-arriereplan: #f4f1eb;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* Fond gris clair pour le site */
+}
+
+/* NavBar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--couleur-arriereplan);
+    top: 0px;
+    margin-bottom: 5px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.navbar .logo {
+    font-size: 32px;
+    margin-left: 15px;
+}
+
+.navbar .navbar-items {
+    display: flex;
+    font-size: 18px;
+}
+
+.navbar .navbar-items li {
+    margin-right: 20px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+}
+
+.navbar .navbar-items li a {
+    text-decoration: none;
+    /* Supprime le soulignement */
+    color: black;
+    /* Hérite de la couleur du parent (supprime la couleur par défaut) */
+    outline: none;
+}
+
+.navbar .navbar-items li:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+/* Liste de produits */
+
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container .top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: var(--couleur-principale);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+
+/* INput de recherche de produits */
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+}
+
+.form {
+    --timing: 0.3s;
+    --width-of-input: 400px;
+    --height-of-input: 50px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 30px;
+}
+
+.input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+}
+
+.form:before {
+    content: "";
+    position: absolute;
+    background: var(--couleur-secondaire);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+input:focus {
+    outline: none;
+}
+
+.form:focus-within:before {
+    transform: scale(1);
+}
+
+.reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.reset:hover {
+    cursor: pointer;
+}
+
+input:not(:placeholder-shown)~.reset {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form svg {
+    width: 17px;
+    margin-top: 3px;
+}
+
+/* Mise en page en grille */
+#products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Grille responsive */
+    gap: 20px;
+    /* Espace entre les cartes */
+    padding: 0;
+    list-style-type: none;
+}
+
+.product {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product a {
+    padding: 0;
+    text-decoration: none;
+}
+
+.product img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-details {
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: var(--couleur-secondaire);
+    font-weight: bold;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

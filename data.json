@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "nom": "Rose Rouge",
+      "description": "Symbole classique de l'amour, parfaite pour déclarer vos sentiments.",
+      "prix": 12.99,
+      "categorie": "Fleurs coupées",
+      "images" : ["https://www.francefleurs.com/15368-large_default/rose-branchue-rouge-10-tiges.jpg","https://www.francefleurs.com/18782-large_default/rose-red-ribbon-40-cm-20-tiges.jpg","https://www.francefleurs.com/13456-large_default/rose-branchue-rouge-10-tiges.jpg"]
+    },
+    {
+      "id": 2,
+      "nom": "Tulipe Jaune",
+      "description": "Apporte de la gaieté et de l’optimisme à tout bouquet.",
+      "prix": 9.50,
+      "categorie": "Fleurs de saison",
+      "images" : ["https://www.francefleurs.com/15566-large_default/tulipe-jaune.jpg","https://www.francefleurs.com/15564-large_default/tulipe-jaune.jpg","https://www.francefleurs.com/15563-large_default/tulipe-jaune.jpg"]
+    },
+    {
+      "id": 3,
+      "nom": "Orchidée Blanche",
+      "description": "Délicate et élégante, idéale pour un intérieur raffiné.",
+      "prix": 19.99,
+      "categorie": "Plantes fleuries",
+      "images" : ["https://www.francefleurs.com/20345-large_default/orchidee-phalaenopsis-25-fleurons.jpg","https://www.francefleurs.com/20346-large_default/orchidee-phalaenopsis-25-fleurons.jpg","https://www.francefleurs.com/20346-large_default/orchidee-phalaenopsis-25-fleurons.jpg"]
+    },
+    {
+      "id": 4,
+      "nom": "Lavande",
+      "description": "Offre un parfum apaisant et une touche provençale à votre espace.",
+      "prix": 7.99,
+      "categorie": "Plantes aromatiques",
+      "images" : ["https://www.francefleurs.com/14289-large_default/lavande-sechee-env40-gr.jpg","https://www.francefleurs.com/14287-large_default/lavande-sechee-env40-gr.jpg","https://www.francefleurs.com/14287-large_default/lavande-sechee-env40-gr.jpg"]
+    },
+    {
+      "id": 5,
+      "nom": "Tournesol",
+      "description": "Illumine la journée avec ses grandes fleurs ensoleillées.",
+      "prix": 10.49,
+      "categorie": "Fleurs de saison",
+      "images" : ["https://www.francefleurs.com/13750-large_default/tournesol-seche-5-tiges.jpg","https://www.francefleurs.com/13751-large_default/tournesol-seche-5-tiges.jpg","https://www.francefleurs.com/13751-large_default/tournesol-seche-5-tiges.jpg"]
+    },
+    {
+      "id": 6,
+      "nom": "Ficus Elastica",
+      "description": "Plante verte robuste au feuillage large et lustré, parfaite pour un intérieur moderne.",
+      "prix": 22.00,
+      "categorie": "Plantes vertes",
+      "images" : ["https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTb4SRsTXdPEHlK3W9oVmz_701mN-1pIHYmGTRqcuwHwC0JnQJO3pnZn3ViJdsL4L53joHSIuRzoUkIWFFWz5nboA","https://fr-ch.bakker.com/cdn/shop/products/66194-00-BAKIE.jpg?v=1649216943&width=1946","https://maison.20minutes.fr/wp-content/uploads/2020/12/istock-1271329010.jpg"]
+    },
+    {
+      "id": 7,
+      "nom": "Cactus Mini",
+      "description": "Petit cactus décoratif nécessitant très peu d’entretien.",
+      "prix": 5.50,
+      "categorie": "Plantes grasses",
+      "images" : ["https://d31ucaydsf5avx.cloudfront.net/12874-large_default/mini-cactus-mammillaire-artificiel.jpg"]
+    },
+    {
+      "id": 8,
+      "nom": "Bonsaï Japonais",
+      "description": "Arbre miniature symbole de sérénité et de patience.",
+      "prix": 35.00,
+
+      "categorie": "Plantes décoratives",
+      "images" : ["https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0757000/757052_2016086.jpg?width=700&height=700&store=fr&image-type=image"]
+    },
+    {
+      "id": 9,
+      "nom": "Menthe",
+      "description": "Plante aromatique fraîche idéale pour les thés et les cocktails.",
+      "prix": 6.00,
+      "categorie": "Plantes aromatiques",
+      "images" : ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2QlXu33hNYsBV4IR231vdB59j2q-jinJYw&s"]
+    },
+    {
+      "id": 10,
+      "nom": "Aloe Vera",
+      "description": "Plante succulente aux vertus médicinales pour la peau.",
+      "prix": 11.90,
+      "categorie": "Plantes grasses",
+      "images" : ["https://lagreentouch.fr/cdn/shop/files/acheter-plante-aloe-vera-barbadensis-517144.jpg?crop=center&height=1200&v=1718903952&width=1200"]
+    }
+  ]
+  
